@@ -1,11 +1,13 @@
-import React , {useState} from "react";
+import React  from "react";
 import '../styles/App.css';
 import Welcome from './Welcome';
 
 const App = () => {
-  const [name, setName] = useState("")
   return (
-    <Welcome name="" />
+    <div>
+
+    <Welcome name= "Mohit" />
+    </div>
   )
 }
 
